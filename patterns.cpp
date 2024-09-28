@@ -115,5 +115,16 @@ int main(){
     }
     cout << endl;
 
+
+    for (int i = 0; i < n;i++){
+         char ch2 = 'A';
+        for (int j = i+1; j >0;j--){
+            cout << ch2 <<"\t";
+        }
+    
+        cout << endl;
+    }
+    cout << endl;
+
     
 }
