@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "firstClass",
+      "request": "launch",
+      "mainClass": "ch_shaggy_java.firstClass",
+      "projectName": "codehub_shaggy_f2c6be7"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "ch_shaggy_java.Main",
+      "projectName": "codehub_shaggy_f2c6be7"
+    },
+    {
+      "type": "java",
+      "name": "Arrays",
+      "request": "launch",
+      "mainClass": "ch_shaggy_java.Arrays",
+      "projectName": "codehub_shaggy_f2c6be7"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/shaggy/codehub_shaggy/ch_shaggy_cpp",
+      "program": "c:/Users/shaggy/codehub_shaggy/ch_shaggy_cpp/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
